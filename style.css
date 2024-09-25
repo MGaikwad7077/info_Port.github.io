@@ -6,7 +6,7 @@
 }
 
 body {
-    background: rgb(6, 6, 6);
+    background: rgb(255, 254, 254);
     color: rgb(15, 15, 15);
 }
 html{
@@ -88,7 +88,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-    color: rgb(241, 237, 237);
+    color: rgb(94, 91, 91);
 }
 
 /* ----------------ABOUT------------- */
