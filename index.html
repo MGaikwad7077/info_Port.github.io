@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dda10b1f4c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo" style="height: 125px; border-radius: 50%;">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi! I'm <span>Mayur</span> <br>Gaikwad from India...</h1>
+                <div>
+                    <span id="element"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------ABOUT-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.jpg" alt="image not available">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="info-me">Myself Mayur Gaikwad, I am a student and a freelancer(UI/UX Designer)</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Software Developer</span><br>Knowledge of languages like C,C++,Java,etc</li>
+                            <li><span>Software Testing</span><br>Web Testing is quite known </li>
+                            <li><span>Web Designing</span><br>CSS and JS is very important for Web Development</li>
+                            <li><span>Andriod Development</span><br>Java and kotlin are used in Andriod Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Desktop Application</span><br>Hospital Management</li>
+                            <li><span>Web Development</span><br>e-commerce website</li>
+                            <li><span>Web Development</span><br>e-commerce website with wordpress</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>SSC completed</span><br>acquired 73% in SSC and have good knownledge of
+                                HTML/CSS/JS</li>
+                            <li><span>Diploma in Computer Engineering</span><br>Acquired 79.83% with comptuer skills
+                            </li>
+                            <li><span>B.E. Computer Engineering</span><br>Pursing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------SERVICE----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>Web Development</h2>
+                    <p>Good Knowledge in HTML/CSS/JS<br>Making an responsive website</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-heart"></i>
+                    <h2>Desktop application </h2>
+                    <p>Using Java and Python<br>Database and SQL</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Software Testing</h2>
+                    <p>Testing of websites and <br>BBT and WBT</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------Portfolio------------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.webp" class="" alt="">
+                    <div class="layer">
+                        <h3>Blogging</h3>
+                        <a href="https://tech5567.blogspot.com/"><i
+                                class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg" class="" alt="">
+                    <div class="layer">
+                        <h3>Other websites</h3>
+                       <a href="https://dev-happiitude2k23.pantheonsite.io/"><i
+                                class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                     
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg" class="" alt="">
+                    <div class="layer">
+              
+                        <h3>Other websites Explore</h3>
+
+                        <a href="https://dev-bobbazaar.pantheonsite.io/"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See guys </a>
+        </div>
+    </div>
+    <!-- ----------Contact--------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-plane"></i> <abbr style="text-decoration: none;"
+                            title="mayurmgaikwad06@gmail.com">mayurmgaikwad06@gmail.com</abbr> </p>
+                    <p><i class="fa-sharp fa-solid fa-circle-user"></i><abbr style="text-decoration: none;"
+                            title="8605337077"> 8605337077</abbr> </p>
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.instagram.com/mayurgaikwad7077/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/mayur-gaikwad-481252216/"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link")
+                }
+
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+            var sidemenu = document.getElementById("sidemenu")
+            function openmenu() {
+                sidemenu.style.right = "60px";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <!-- Setup and start animation! -->
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['I am <i>Web Developer</i>', ' a <i>Tutor</i>', ' &amp; Wordpress Developer'],
+                typeSpeed: 50,
+            });
+        </script>
+</body>
+
+</html>
